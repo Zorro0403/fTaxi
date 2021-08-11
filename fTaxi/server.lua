@@ -2,7 +2,6 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-
 local lastPlayerSuccess = {}
 
 if Config.MaxInService ~= -1 then
